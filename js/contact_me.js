@@ -13,7 +13,6 @@ $(function() {
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
-            var phone = $("input#phone").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -30,13 +29,13 @@ $(function() {
                     else alert('Request error');
                 }
             }
-            xmlhttp.send(JSON.stringify({'key': 'qHbUt4i4VFnqlxYriZIWiw',
+            xmlhttp.send(JSON.stringify({'key': 'umOSVmB-VNgbSqREeUeeGw',
                'message': {
                    'from_email': email,
                    'to': [{'email': 'iturs@yandex.ru', 'type': 'to'}],
                    'autotext': 'true',
-                   'subject': 'Yeah!',
-                   'html': '<h1>Its work!</h1>'
+                   'subject': 'ParseMe',
+                   'html': message+' '+firstName
                 }}));
             // $.ajax({
             //     url: "././mail/contact_me.php",
