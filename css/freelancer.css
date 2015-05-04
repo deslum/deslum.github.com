@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #4A88A8;
 }
 
 h1,
@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #4A88A8;
 }
 
 hr.star-primary {
@@ -82,7 +82,18 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background-image: url(../img/logo.jpg);
+}
+
+
+.blacken{
+  background-color: #000; /* Чёрный фон */
+  height: 100%; /* Высота максимальна */
+  left: 0; /* Нулевой отступ слева */
+  opacity: 0.65; /* Степень прозрачности */
+  top: 0; /* Нулевой отступ сверху */
+  width: 100%; /* Ширина максимальна */
+  z-index: 100; /* Заведомо быть НАД другими элементами */
 }
 
 header .container {
@@ -181,7 +192,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #4a88a8;
 }
 
 section.success a,
@@ -274,7 +285,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #4a88a8;
     background: #fff;
 }
 
@@ -327,7 +338,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #4A88A8;
 }
 
 form .row:first-child .floating-label-form-group {
