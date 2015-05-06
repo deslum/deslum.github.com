@@ -38,15 +38,15 @@ h6 {
 
 hr.star-light,
 hr.star-primary {
-    margin: 25px auto 30px;
+    margin: 20px auto 30px;
     padding: 0;
-    max-width: 250px;
+    max-width: 300px;
     border: 0;
     border-top: solid 5px;
     text-align: center;
 }
 
-hr.star-light:after,
+/*hr.star-light:after,
 hr.star-primary:after {
     content: "\f005";
     display: inline-block;
@@ -55,7 +55,7 @@ hr.star-primary:after {
     padding: 0 .25em;
     font-family: FontAwesome;
     font-size: 2em;
-}
+}*/
 
 hr.star-light {
     border-color: #fff;
@@ -84,17 +84,27 @@ header {
     text-align: center;
     color: #fff;
     background-image: url(../img/logo.jpg);
+    width: 100%;
 }
 
 
+.success-my:hover{
+    background: #3b6c86;
+    border-color: #80abc2;
+}
+
+.link-footer{
+    text-decoration: none;
+    color: #fff;
+}
 
 .blacken{
     background-color: rgba(0,0,0,0.75);
-    height: 100%;
     left: 0;
     top: 0;
     width: 100%;
     z-index: 100;
+    height: 750px;
 }
 
 
@@ -448,6 +458,10 @@ footer .footer-below {
 
 .portfolio-modal .close-modal:hover {
     opacity: .3;
+}
+
+li p{
+    font-size: 20px;
 }
 
 .portfolio-modal .close-modal .lr {
